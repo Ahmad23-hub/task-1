@@ -6,50 +6,51 @@
     <title>Personal homepage</title>
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Sanni Sa'eed Ahmad</h1>
-            <!--Navigation menu-->
-            <nav>
-                <a href="#about">About</a>
-                <a href="#hobbies">Hobbies</a>
-                <a href="#form">Form</a>
-            </nav>
-        </section>
-        <section>
+    <header class="site-header">
+       <div class="container">
+          <h1>Sanni Sa'eed Ahmad</h1>
+       </div>     
+          <!--Navigation menu-->
+          <nav>
+            <a href="#about">About</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact me">Contact Me</a>
+          </nav>
+    </header>
+        <section id="about" class="about-section">
+          <div class="container">
             <h2 id="#about">About</h2>
-            <p>I am a skilled web developer with a strong passion for building responsive, user-friendly websites and web applications.<br> With expertise in front-end and back-end technologies, I also combines creativity and technical proficiency to deliver high-quality digital solutions tailored to client needs.</p>
-            <p>
-                <h3>Hobbies</h3>
-                <ul>
-                    <li>Tech Blogging</li>
-                    <li>UI/UX Design</li>
-                    <li>Music</li>
-                    <li>Learning New Technology</li>
-                    <li>Reading</li>
-                </ul>
+            <p>I am a skilled web developer with a strong passion for building responsive,
+                 user-friendly websites and web applications.<br> With expertise in front-end and back-end technologies, 
+                 I also combines creativity and technical proficiency to deliver high-quality digital solutions tailored to client needs.     
             </p>
+          </div> 
+        <section>
+        <section id="hobbies" class="hobbies-section">
+          <div class="container">          
+            <h3>Hobbies</h3>
+              <ul>
+                <li>Tech Blogging</li>
+                <li>UI/UX Design</li>
+                <li>Music</li>
+                <li>Learning New Technology</li>
+                <li>Reading</li>
+              </ul>
+          </div>     
+      </section>
             <img src="Screenshot_20240217_132109_Facebook.jpg"alt="My profile picture"width="300" height="400">
-            <form>
-                <h2>Contact Me</h2>
-                <label for="name">Name:</label>
-                <input type="text"id="name"name="name"><br><br>
-                <label for="email">Email:</label>
-                <input type="email"id="email"name="email"><br><br>
-                <label for="message">Message:</label>
-                <input type="textarea"id="message"name="message"><br><br>
-                <input type="submit"value="send">
-            </form>
-
-
-
-
-
-
-
-
-</p>
-        </section>
+      <section id="contact me">
+        <form class="contact me">
+          <h2 id="#contact me">Contact Me</h2>
+          <label for="name">Name:</label>
+          <input type="text"id="name"name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email"id="email"name="email"><br><br>
+          <label for="message">Message:</label>
+          <input type="textarea"id="message"name="message"><br><br>
+          <input type="submit"value="send">
+        </form>
+      </section>
     </main>
 </body>
 </html>
